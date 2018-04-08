@@ -2,7 +2,7 @@
 	<img src="vim-logo.svg" width="160px">
 </p>
 
-# .Vim
+# Vim
 My vim configuration. The final `.vimrc` file is symlinked from [/vimrc](https://github.com/federicobadini/.vim/blob/master/vimrc).
 
 ## Getting started

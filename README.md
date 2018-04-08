@@ -11,7 +11,7 @@ Just run the following commands via terminal to get perfectly set up:
 ```console
 $ cd ~/
 $ git clone --recursive https://github.com/federicobadini/.vim.git .vim
-$ make
+$ make install
 ```
 
 ## Plugin management

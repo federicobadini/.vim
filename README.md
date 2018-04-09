@@ -21,11 +21,11 @@ Currently this project is on Pathogen 2.4. The Pathogen code can be found in [au
 
 ## Plugin list
 
-* [Vim-airline](https://github.com/vim-airline/vim-airline.git)
-* [Vim-airline-themes](https://github.com/vim-airline/vim-airline-themes.git)
 * [Ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim.git)
 * [Nerdtree](https://github.com/scrooloose/nerdtree.git)
+* [Vimgutter.git](https://github.com/airblade/vim-gitgutter.git)
+* [Vim-airline](https://github.com/vim-airline/vim-airline.git)
+* [Vim-airline-themes](https://github.com/vim-airline/vim-airline-themes.git)
 * [Vim-better-whitespace](https://github.com/ntpeters/vim-better-whitespace.git)
 * [Vim-buftabline](https://github.com/ap/vim-buftabline.git)
 * [Vim-colors-solarized](https://github.com/altercation/vim-colors-solarized.git)
-* [Vimgutter.git](https://github.com/airblade/vim-gitgutter.git)

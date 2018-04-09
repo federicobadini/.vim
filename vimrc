@@ -9,8 +9,8 @@
 " Load plugins								"
 " ----------------------------------------- "
 
-execute pathogen#infect()			" Pathogen setup
-call pathogen#helptags()			" Pathogen helptags
+execute pathogen#infect()
+call pathogen#helptags()
 
 
 " ----------------------------------------- "

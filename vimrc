@@ -6,7 +6,7 @@
 
 
 " ----------------------------------------- "
-" Load plugins								"
+" Load plugins															"
 " ----------------------------------------- "
 
 execute pathogen#infect()
@@ -14,77 +14,77 @@ call pathogen#helptags()
 
 
 " ----------------------------------------- "
-" Enable vi-iMproved functionalities        "
+" Enable vi-iMproved functionalities				"
 " ----------------------------------------- "
 
-set nocompatible					" Enable vi-iMproved functionalities
-filetype plugin indent on			" Enable detection, plugin and indetation
-
-
-" ----------------------------------------- "
-" General options							"
-" ----------------------------------------- "
-
-set autoindent						" Indent when starting new line
-set autoread                    	" Automatically reread changed files
-set autowrite                   	" Auto-save before :next, :make etc.
-set background=dark                 " Background color
-set backspace=indent,eol,start  	" Makes backspace key more powerful
-set colorcolumn=80                  " 80 columns limit line
-set complete=.,w,b,u,t				" Set completion buffers
-set complete-=i						" Avoid scanning included files
-set completeopt=longest,menuone		" Set completion options
-set conceallevel=0					" Do not hide markdown
-set display+=lastline				" Remove @ for long lines
-set encoding=utf-8              	" Set default encoding to UTF-8
-set fileformats=unix,dos,mac    	" Prefer Unix over Windows over OS 9 format
-set formatoptions=qrn1				" Formatting options
-set hidden							" Enable hiding buffer, no save required
-set hlsearch                    	" Highlight found searches
-set ignorecase                  	" Search case insensitive
-set incsearch                   	" Shows the search match while typing
-set laststatus=2					" Always show status-bar
-set lazyredraw          	      	" Wait to redraw
-set nobackup					    " Don't create annoying backup files
-set nocursorcolumn					" No column highlight during search
-set nocursorline					" No cursor line highlight
-set noerrorbells                	" No beeps
-set noshowmatch                 	" Do not jump to closing bracket
-set noshowmode                  	" Mode is shown in airline
-set noswapfile                  	" Don't use swapfile
-set notimeout						" No time restriction for composed commands
-set nowritebackup					" Avoid creating backup before saving
-set nrformats-=octal				" Exclude octals from implicit arithmetic
-set number                      	" Show line numbers
-set re=1							" Regexp engine
-set ruler                       	" Show the cursor position all the time
-set showcmd                     	" Show me what I'm typing
-set showmode                    	" Show current mode.
-set splitbelow                  	" Split horizontal windows below
-set splitright                  	" Split vertical windows right
-set shiftround						" Round indent to a multiple of shiftwidth
-set shiftwidth=2					" Shift width
-set smartcase                   	" Search case insensitive if no uppercase
-set smarttab						" Enable smarttab
-set synmaxcol=300					" Max col to highlight
-set tabstop=2						" Tab width
-set textwidth=79					" Available columns
-set ttimeout						" Time restriction enabled for key codes
-set ttimeoutlen=10					" Set timeout length
-set ttyfast							" Fast and smooth interaction
-set wildmenu                        " Wildmenu completion
-set wildmode=list:full              " Wildmenu mode full
-set wildignore+=.git                " Version control
-set wildignore+=*.jpg,*.jpeg        " Binary images
-set wildignore+=*.png,*.bmp,*.gif   " Binary images
-set wildignore+=*.o,*.obj           " Object files
-set wildignore+=*.DS_Store          " OSX bullshit
-set wildignore+=*.orig              " Merge resolution files
-set wrap							" Word wrap enabled
+set nocompatible											" Enable vi-iMproved functionalities
+filetype plugin indent on							" Enable detection, plugin and indetation
 
 
 " ----------------------------------------- "
-" Syntax enabled                            "
+" General options														"
+" ----------------------------------------- "
+
+set autoindent											" Indent when starting new line
+set autoread												" Automatically reread changed files
+set autowrite												" Auto-save before :next, :make etc.
+set background=dark									" Background color
+set backspace=indent,eol,start			" Makes backspace key more powerful
+set colorcolumn=80									" 80 columns limit line
+set complete=.,w,b,u,t							" Set completion buffers
+set complete-=i											" Avoid scanning included files
+set completeopt=longest,menuone			" Set completion options
+set conceallevel=0									" Do not hide markdown
+set display+=lastline								" Remove @ for long lines
+set encoding=utf-8									" Set default encoding to UTF-8
+set fileformats=unix,dos,mac				" Prefer Unix over Windows over OS 9 format
+set formatoptions=qrn1							" Formatting options
+set hidden													" Enable hiding buffer, no save required
+set hlsearch												" Highlight found searches
+set ignorecase											" Search case insensitive
+set incsearch												" Shows the search match while typing
+set laststatus=2										" Always show status-bar
+set lazyredraw											" Wait to redraw
+set nobackup												" Don't create annoying backup files
+set nocursorcolumn									" No column highlight during search
+set nocursorline										" No cursor line highlight
+set noerrorbells										" No beeps
+set noshowmatch											" Do not jump to closing bracket
+set noshowmode											" Mode is shown in airline
+set noswapfile											" Don't use swapfile
+set notimeout												" No time restriction for composed commands
+set nowritebackup										" Avoid creating backup before saving
+set nrformats-=octal								" Exclude octals from implicit arithmetic
+set number													" Show line numbers
+set re=1														" Regexp engine
+set ruler														" Show the cursor position all the time
+set showcmd													" Show me what I'm typing
+set showmode												" Show current mode.
+set splitbelow											" Split horizontal windows below
+set splitright											" Split vertical windows right
+set shiftround											" Round indent to a multiple of shiftwidth
+set shiftwidth=2										" Shift width
+set smartcase												" Search case insensitive if no uppercase
+set smarttab												" Enable smarttab
+set synmaxcol=300										" Max col to highlight
+set tabstop=2												" Tab width
+set textwidth=79										" Available columns
+set ttimeout												" Time restriction enabled for key codes
+set ttimeoutlen=10									" Set timeout length
+set ttyfast													" Fast and smooth interaction
+set wildmenu												" Wildmenu completion
+set wildmode=list:full							" Wildmenu mode full
+set wildignore+=.git								" Version control
+set wildignore+=*.jpg,*.jpeg				" Binary images
+set wildignore+=*.png,*.bmp,*.gif		" Binary images
+set wildignore+=*.o,*.obj						" Object files
+set wildignore+=*.DS_Store					" OSX bullshit
+set wildignore+=*.orig							" Merge resolution files
+set wrap														" Word wrap enabled
+
+
+" ----------------------------------------- "
+" Syntax enabled														"
 " ----------------------------------------- "
 
 syntax sync minlines=256
@@ -92,7 +92,7 @@ syntax enable
 
 
 " ----------------------------------------- "
-" Colors									"
+" Colors																		"
 " ----------------------------------------- "
 
 let g:solarized_termcolors=256
@@ -101,14 +101,14 @@ colorscheme solarized
 
 
 " ----------------------------------------- "
-" Mapleader                                 "
+" Mapleader																	"
 " ----------------------------------------- "
 
 let g:mapleader = ","
 
 
 " ----------------------------------------- "
-" Custom mappings                           "
+" Custom mappings														"
 " ----------------------------------------- "
 
 " Split screen with movement keys
@@ -133,7 +133,7 @@ nnoremap N Nzzzv
 
 
 " ----------------------------------------- "
-" Autocommands                              "
+" Autocommands															"
 " ----------------------------------------- "
 
 " Set vim to save the file on focus out.
@@ -147,7 +147,7 @@ au BufEnter * silent! lcd %:p:h
 
 
 " ----------------------------------------- "
-" Plugin configs 			    			"
+" Plugin configs														"
 " ----------------------------------------- "
 
 " Airline

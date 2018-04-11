@@ -72,6 +72,7 @@ set textwidth=79										" Available columns
 set ttimeout												" Time restriction enabled for key codes
 set ttimeoutlen=10									" Set timeout length
 set ttyfast													" Fast and smooth interaction
+set t_Co=256												" Enable 256 colors
 set wildmenu												" Wildmenu completion
 set wildmode=list:full							" Wildmenu mode full
 set wildignore+=.git								" Version control
@@ -84,20 +85,20 @@ set wrap														" Word wrap enabled
 
 
 " ----------------------------------------- "
-" Syntax enabled														"
-" ----------------------------------------- "
-
-syntax sync minlines=256
-syntax enable
-
-
-" ----------------------------------------- "
 " Colors																		"
 " ----------------------------------------- "
 
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 colorscheme solarized
+
+
+" ----------------------------------------- "
+" Syntax enabled														"
+" ----------------------------------------- "
+
+syntax sync minlines=256
+syntax enable
 
 
 " ----------------------------------------- "

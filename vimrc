@@ -17,8 +17,8 @@ call pathogen#helptags()
 " Enable vi-iMproved functionalities				"
 " ----------------------------------------- "
 
-set nocompatible											" Enable vi-iMproved functionalities
-filetype plugin indent on							" Enable detection, plugin and indetation
+set nocompatible										" Enable vi-iMproved functionalities
+filetype plugin indent on						" Enable detection, plugin and indetation
 
 
 " ----------------------------------------- "
@@ -164,7 +164,10 @@ let g:ctrlp_clear_cache_on_exit = 0
 " NERDTree
 let g:NERDTreeShowHidden=1
 noremap <C-n> :NERDTreeToggle<CR>
-au BufEnter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+au BufEnter * if (
+	\ winnr("$") == 1 &&
+	\ exists("b:NERDTreeType") &&
+	\ b:NERDTreeType == "primary") | q | endif
 
 " Vim better whitespace
 let g:strip_whitespace_on_save = 1

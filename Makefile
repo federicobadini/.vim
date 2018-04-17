@@ -1,10 +1,13 @@
 .PHONY: install
 install: ## Sets up symlinks for both current user and root
+	git submodule update --recursive --remote
+	bash $(HOME)/.vim/vimrc/bundle/LanguageClient-neovim/install.sh
 	ln -snf "$(HOME)/.vim/vimrc" "$(HOME)/.vimrc"
 	ln -snf "$(HOME)/.vim/bundle/vim-colors-solarized/colors/solarized.vim \
 		$(HOME)/.vim/colors/solarized.vim"
 	ln -snf "$(HOME)/.vim/bundle/vim-colors-solarized/autoload/togglebg.vim \
 		$(HOME)/.vim/autoload/togglebg.vim"
+	
 
 .PHONY: update
 update: ## Updates all plugins

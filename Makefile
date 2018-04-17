@@ -13,7 +13,7 @@ install: ## Sets up symlinks for both current user and root
 
 .PHONY: update
 update: ## Updates all plugins
-	git submodule update --init --recursive
+	git submodule update --recursive --remote
 
 .PHONY: help
 help:

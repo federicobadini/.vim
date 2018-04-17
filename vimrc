@@ -160,7 +160,7 @@ let g:ctrlp_clear_cache_on_exit = 0
 nnoremap <leader>ga :Git add %:p<CR><CR>
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>gp :Gpush<CR>
-vnoremap <leader>gb :Gblame<CR>
+nnoremap <leader>gb :Gblame<CR>
 
 " NERDTree
 let g:NERDTreeShowHidden=1

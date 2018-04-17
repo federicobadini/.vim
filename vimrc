@@ -122,12 +122,6 @@ nnoremap <C-l> <C-W>l
 nnoremap <C-x> :bnext<CR>
 nnoremap <C-z> :bprev<CR>
 
-" Show spelling errors
-nnoremap <F6> :setlocal spell! spell?<CR>
-
-" Remove search highlight with <leader><space>
-nnoremap <leader><space> :nohlsearch<CR>
-
 " Center screen on previous/next search occurrence
 nnoremap n nzzzv
 nnoremap N Nzzzv
@@ -161,6 +155,12 @@ endif
 " CtrlP
 let g:ctrlp_max_files=0
 let g:ctrlp_clear_cache_on_exit = 0
+
+" Fugitive
+nnoremap <leader>ga :Git add %:p<CR><CR>
+nnoremap <leader>gs :Gstatus<CR>
+nnoremap <leader>gp :Gpush<CR>
+vnoremap <leader>gb :Gblame<CR>
 
 " NERDTree
 let g:NERDTreeShowHidden=1

@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="vim-logo.svg" width="160px">
+	<img src="vim-logo.svg" width="180px">
 </p>
 
 # Vim

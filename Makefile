@@ -1,11 +1,6 @@
-CONFIG_HOME := $(HOME)/.config
-
 .PHONY: install
 install: ## Sets up symlinks for both current user and root
 	ln -snf "$(HOME)/.vim/vimrc" "$(HOME)/.vimrc"
-	mkdir -p "$(CONFIG_HOME)"
-	ln -snf "$(HOME)/.vim" "$(CONFIG_HOME)/nvim"
-	ln -snf "$(HOME)/.vimrc" "$(CONFIG_HOME)/nvim/init.vim"
 	ln -snf "$(HOME)/.vim/bundle/vim-colors-solarized/colors/solarized.vim \
 		$(HOME)/.vim/colors/solarized.vim"
 	ln -snf "$(HOME)/.vim/bundle/vim-colors-solarized/autoload/togglebg.vim \
